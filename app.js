@@ -12,7 +12,7 @@ app.get("/", (req,res)=>{
 })
 
 app.post("/", (req,res)=>{
-    res.json({message:"message received"})
+    res.json(req.body)
 })
 
 app.listen("3000", ()=>console.log("listening"))
