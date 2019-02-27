@@ -9,7 +9,7 @@ app.use(bp.json())
 app.use(bp.urlencoded({extended:false}))
 
 // setup database
-mongoose.connect("mongodb://admin123:admin123@ds119070.mlab.com:19070/2cc",
+mongoose.connect("YOUR MONGODB URI",
 {useNewUrlParser:true})
 
 // error handling
